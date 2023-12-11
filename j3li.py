@@ -1,16 +1,11 @@
 import streamlit as st
-
-st.code("""
-    !pip install matplotlib
-""")
-
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import warnings
 import numpy as np
 
-st.set_page_config(layout="wide")
+#st.set_page_config(layout="wide")
 
 url = "https://docs.google.com/spreadsheets/d/1D_XqlIYDrrSvi54C5WSJkIwHQJje_mq_lS1xRTxAPpQ/gviz/tq?tqx=out:csv&sheet=Survey_Perilaku_Saling_Peduli_dan_Saling_Jaga_Integritas_Versi_2"
 # data_raw = pd.read_csv('Hasil Survei Aplikasi J3Li - Sheet1.csv')
