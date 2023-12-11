@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.sidebar.code("""
+st.code("""
     !pip install matplotlib
 """)
 
